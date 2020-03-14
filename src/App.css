@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  margin-left: 25px;
+}
+
+.forms-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form {
+  display: inherit;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 24rem;
+  height: 10rem;
+}
+
+.form > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > form > * {
+  margin: 0.8rem;
+  height: 1.5rem;
+}
+
+.unenrolled-container {
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  padding: 1rem;
+}
+
+.unenrolled-container > * {
+  list-style-type: none;
+}
+
+.school-list-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.school-card {
+  border: 1px solid black;
+  padding: 1rem;
+  width: 14rem;
+}
+
+.school-card > * {
+  margin: 0.5rem;
+  list-style-type: none;
+}
